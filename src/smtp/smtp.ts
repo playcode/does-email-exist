@@ -30,7 +30,7 @@ export const checkSMTP = async (
       }
     })
     socket.once('fail', msg => {
-      const [code] = Object.typedKeys(ErrorCodes).filter(x => hasCode(msg, x))
+      const code = Object.typedKeys(ErrorCodes).filter(x => hasCode(msg, x))?.[0]
 
       r(createOutput('smtp', msg, code))
       if (socket.writable && !socket.destroyed) {

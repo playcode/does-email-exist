@@ -23,5 +23,5 @@ export const ErrorCodes = {
 }
 
 export const hasCode = (message: Buffer, code: keyof typeof ErrorCodes): boolean => {
-  return message.indexOf(`${code}`) === 0 || message.indexOf(`${code}\n`) > -1
+  return message?.indexOf(`${code}`) === 0 || message?.indexOf(`${code}\n`) > -1
 }
