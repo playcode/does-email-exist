@@ -1,6 +1,6 @@
 {
-  "name": "@playcode/does-email-exist",
-  "version": "0.1.0",
+  "name": "does-email-exist",
+  "version": "0.1.2",
   "files": [
     "dist/**/*"
   ],
