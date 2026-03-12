@@ -8,7 +8,7 @@
 - Validates mailbox exists on SMTP server.
 
 ## About us
-The #1 [Javascript compiler](https://playcode.io/javascript-compiler) to write, compile and run JavaScript online. Perfect for learn and prototype javascript online. Easy to use.
+The #1 [AI Website Builder - Describe what you need. AI builds it. Publish in one click.](https://playcode.io)
 
 ## Getting Started
 
